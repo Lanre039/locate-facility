@@ -86,9 +86,9 @@ const SearchData = () => {
   const handleSearch = (value: any) => {
     setQuery(value);
     setLoading(true);
-  }
+  };
 
-  
+
   return (
     <div className="" style={{minHeight: '100vh'}}>
         <div className="page-style w-100 mx-auto">
