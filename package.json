@@ -1,48 +1,28 @@
 {
   "name": "react-tsx",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "engines": {
     "npm": "6.12.0",
     "node": "12.13.0"
   },
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "antd": "^4.3.1",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
-    "env-cmd": "^10.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-foursquare": "^1.0.3",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix spa && npm run build --prefix spa"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanre039/locate-facility.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lanre039/locate-facility/issues"
+  },
+  "homepage": "https://github.com/Lanre039/locate-facility#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
