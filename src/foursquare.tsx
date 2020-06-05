@@ -3,8 +3,8 @@ export const foursquare = require('react-foursquare')({
     clientSecret: process.env.REACT_APP_CLIENT_SECRET 
   });
   
-  export const params = {
-    "near": "Lagos, Nigeria",
+export const params = {
+   "near": "Lagos, Nigeria",
     "limit": 10,
     "radius": 500
-  };
+};
