@@ -1,0 +1,16 @@
+.search-width {
+    width: 50%
+}
+.page-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+@media only screen and (max-width: 35em) {
+    .search-width {
+        width: 100%
+    }
+}
